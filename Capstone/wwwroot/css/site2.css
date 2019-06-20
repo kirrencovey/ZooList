@@ -186,8 +186,17 @@ a {
     border-radius: 0.3rem;
 }
 
-/* CARD STYLES */
+.btn-light {
+    margin-left: 10px;
+    border: none;
+}
 
+    .btn-light:hover {
+        background-color: #17a2b8;
+        color: white;
+    }
+
+/* CARD STYLES */
 .card-container {
     display: flex;
     flex-wrap: wrap;
