@@ -92,10 +92,6 @@ h3, h4 {
     padding-left: 10px;
 }
 
-h1, h2 {
-    font-family: 'Acme', sans-serif;
-}
-
 h1 {
     font-size: 42px;
 }
@@ -110,7 +106,7 @@ h1 {
 
 .state-name {
     font-size: 2rem;
-    padding-top: 70px;
+    padding-top: 80px;
     font-weight: 200;
     margin-bottom: -2px;
 }
@@ -186,8 +182,17 @@ a {
     border-radius: 0.3rem;
 }
 
-/* CARD STYLES */
+.btn-light {
+    margin-left: 10px;
+    border: none;
+}
 
+    .btn-light:hover {
+        background-color: #17a2b8;
+        color: white;
+    }
+
+/* CARD STYLES */
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -208,7 +213,7 @@ a {
 
 
 .by-state-card {
-    margin-bottom: -40px;
+    margin-bottom: -50px;
 }
 
 .card-title {
@@ -238,6 +243,24 @@ a {
     float: left;
     position: absolute;
     bottom: 20px;
+}
+
+.delete-card {
+    flex-basis: 50%;
+    margin-top: 20px;
+}
+
+.delete-card-title,
+.delete-card-text {
+    color: black!important;
+}
+
+.delete-card-title {
+    font-size: 2rem;
+}
+
+.delete-card-text {
+    font-size: 1.1rem;
 }
 
 /* *********** */

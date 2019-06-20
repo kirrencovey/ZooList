@@ -4,16 +4,18 @@
     ViewData["Title"] = "Delete";
 }
 
-<h1>Wait!</h1>
-
-<h3>Are you sure you want to delete @Html.DisplayFor(model => model.Name) from your trip list?</h3>
-<div>
-    <hr />
-
-    
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="TripId" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
-    </form>
-</div>
+    <div class="card-container">
+        <div class="card delete-card">
+            <div class="card-body">
+                <p class="delete-card-title">Wait!</p>
+                <p class="delete-card-text">Are you sure you want to delete @Html.DisplayFor(model => model.Name) from your trip list?</p>
+                <div>
+                    <form asp-action="Delete">
+                        <input type="hidden" asp-for="TripId" />
+                        <input type="submit" value="Delete" class="btn btn-outline-info" />
+                        <a href='javascript:history.go(-1)' class="btn btn-outline-info">Cancel</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
