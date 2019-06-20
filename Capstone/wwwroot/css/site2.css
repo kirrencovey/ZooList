@@ -249,4 +249,22 @@ a {
     bottom: 20px;
 }
 
+.delete-card {
+    flex-basis: 50%;
+    margin-top: 20px;
+}
+
+.delete-card-title,
+.delete-card-text {
+    color: black!important;
+}
+
+.delete-card-title {
+    font-size: 2rem;
+}
+
+.delete-card-text {
+    font-size: 1.1rem;
+}
+
 /* *********** */

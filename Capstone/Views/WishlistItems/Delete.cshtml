@@ -4,16 +4,19 @@
     ViewData["Title"] = "Delete";
 }
 
-<h1>Wait!</h1>
 
-<h3>Are you sure you want to remove 
-    <br/>
-    @Html.DisplayFor(model => model.Zoo.Name) from your wishlist?
-</h3>
-<div>
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="WishlistItemId" />
-        <input type="submit" value="Delete" class="btn btn-light" />
-        <a class="btn btn-light" asp-action="Index">Cancel</a>
-    </form>
+<div class="card-container">
+    <div class="card delete-card">
+        <div class="card-body">
+            <p class="delete-card-title">Wait!</p>
+            <p class="delete-card-text">Are you sure you want to remove @Html.DisplayFor(model => model.Zoo.Name) from your wishlist?</p>
+            <div>
+                <form asp-action="Delete">
+                    <input type="hidden" asp-for="WishlistItemId" />
+                    <input type="submit" value="Delete" class="btn btn-outline-info" />
+                    <a class="btn btn-outline-info" asp-action="Index">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>

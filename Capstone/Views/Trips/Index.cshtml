@@ -7,7 +7,7 @@
 <h1>My Trips</h1>
 
 <p>
-    <a asp-action="Create">Add A Trip</a>
+    <a asp-action="Create" class="state-count">Add A Trip</a>
 </p>
 
 <div class="card-container">
@@ -24,7 +24,7 @@
                     <a class="btn btn-plain" asp-action="Edit" asp-route-id="@item.TripId"><i class="fas fa-edit"></i></a>
                     <a class="btn btn-plain" asp-action="Delete" asp-route-id="@item.TripId"><i class="far fa-trash-alt"></i></a>
                 </div>
-</div>
+            </div>
         </div>
     }
 </div>
