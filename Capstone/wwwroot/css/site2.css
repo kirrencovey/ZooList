@@ -68,7 +68,7 @@ body {
     padding-top: 90px;
     background-image: url(../images/drops-feather-feathers-66875.jpg);
     background-repeat: no-repeat;
-    background-size: 1270px auto;
+    background-size: cover;
     background-attachment: fixed;
     /*background-position: bottom;*/
 }
@@ -113,7 +113,7 @@ h1 {
 
 .state-letters {
     position: fixed;
-    bottom: 583px;
+    bottom: 693px;
     right: 0;
     font-size: .8em;
     z-index: 1;
