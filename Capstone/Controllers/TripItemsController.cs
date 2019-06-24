@@ -89,11 +89,11 @@ namespace Capstone.Controllers
                 tripItem.ZooId = _context.Zoos.FirstOrDefault(z => z.ZooId == id).ZooId;
                 _context.Add(tripItem);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Index", "Zoos");
+                return RedirectToAction("Index", "Trips");
             }
             ViewData["TripId"] = new SelectList(_context.Trips, "TripId", "Name", tripItem.TripId);
             ViewData["ZooId"] = new SelectList(_context.Zoos, "ZooId", "Name", tripItem.ZooId);
-            return View(tripItem);
+            return View("Index", "Trips");
         }
 
         // GET: TripItems/Delete/5
