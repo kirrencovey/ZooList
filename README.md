@@ -1,6 +1,6 @@
-![Bridge!](/Capstone/wwwroot/images/ZooList-Screenshots.png)
+![ZooList](/Capstone/wwwroot/images/ZooList-Screenshots.png)
 
-# Welcome to Bridge!
+# Welcome to ZooList
 I love zoos, and wherever I travel, I try to visit as many as possible. But there are tons of zoos, many of which I've never even heard of, and it's hard to remember where I've been, and when. ZooList allows users to view a list of zoos and related animal facilities, add them to their wishlist, and record their visits. Users can also use the trips feature to create itineraries, and can add multiple zoos to each trip.
 
 <!-- [View Deployed Site](https://) -->
