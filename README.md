@@ -22,3 +22,5 @@ ZooList is a C# web application built with ASP.NET using Entity and Identity fra
 <!-- ## To Clone
 
 -->
+
+*Due to corrupted .git files caused by virtualbox crashing, a new repo was added late in the project. To see earlier commits to this project, please see [this repo](https://github.com/kirrencovey/ZooList-v1)*
